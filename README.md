@@ -52,3 +52,5 @@ to open an angular application in the browser.
 
 8. Copy that url( <http://localhost:4200>) and paste in your browser.
 
+- Reference document : <https://docs.sunbirdrc.dev/use/setup-the-frontend>
+
