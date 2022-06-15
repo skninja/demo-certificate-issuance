@@ -32,7 +32,17 @@
                             },
                             {
                                 "name": "accountDetails",
-                                "required": true
+                                "children": {
+                                    "definition": "AccountDetails",
+                                    "description": "Enter Email id or Phone number that you would use for login",
+                                    "title": "Account Details",
+                                    "fields": [
+                                       {
+                                        "name": "userId",
+                                        "required": true
+                                       }
+                                    ]
+                                }
                             },
                             {
                                 "name": "contactDetails",
