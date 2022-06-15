@@ -25,7 +25,7 @@ run `docker-compose logs -f registry` and check logs
 # Frontend - certificate registry setup
 
 Prerequesite:
-* Angular
+* Angular 10.2.1
 * nodejs and npm
 
 1. Clone Sunbird RC UI code from here - <https://github.com/code-blooded-guy/sunbird-rc-ui/tree/issuance>
