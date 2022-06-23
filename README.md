@@ -44,7 +44,7 @@ Eg : **ln -s *demo-education-registry/ui-config***
 5. Add your **config.json** and **home.html** file on below mentioned path
 ***sunbird-rc-ui/src/assets/config***
 
-6. Run `_npm intsall_` or `_yarn_` command in root folder (sunbird-rc-ui)
+6. Run `npm intsall` or `yarn` command in root folder (sunbird-rc-ui)
 
 7. Go to root folder means **sunbird-rc-ui** folder 
 Run - **npm start**
