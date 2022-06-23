@@ -44,13 +44,15 @@ Eg : **ln -s *demo-education-registry/ui-config***
 5. Add your **config.json** and **home.html** file on below mentioned path
 ***sunbird-rc-ui/src/assets/config***
 
-6. Go to root folder means **sunbird-rc-ui** folder 
+6. Run `_npm intsall_` or `_yarn_` command in root folder (sunbird-rc-ui)
+
+7. Go to root folder means **sunbird-rc-ui** folder 
 Run - **npm start**
 
-7. Once project run completely then you will get <http://localhost:4200> url
+8. Once project run completely then you will get <http://localhost:4200> url
 to open an angular application in the browser.
 
-8. Copy that url( <http://localhost:4200>) and paste in your browser.
+9. Copy that url( <http://localhost:4200>) and paste in your browser.
 
 - Reference document : <https://docs.sunbirdrc.dev/use/setup-the-frontend>
 
