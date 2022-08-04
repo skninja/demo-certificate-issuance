@@ -47,6 +47,7 @@ services:
       - signature_enabled=true
       - pdf_url=http://certificate-api:8078/api/v1/certificatePDF
       - template_base_url=http://registry:8081/api/v1/templates/ #Looks for certificate templates for pdf copy of the signed certificate
+      - authentication_enabled=false
     ports:
       - "8081:8081"
     depends_on:
@@ -96,6 +97,8 @@ services:
 #        condition: service_started
   certificate-signer:
     image: dockerhub/sunbird-rc-certificate-signer:v0.0.4
+    volumes:
+      - ./config:/etc/signer
     environment:
       - PORT=8079
     ports:
